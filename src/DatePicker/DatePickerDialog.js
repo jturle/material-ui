@@ -155,6 +155,7 @@ class DatePickerDialog extends Component {
           open={open}
           onRequestClose={this.handleRequestClose}
           style={Object.assign(styles.dialogBodyContent, containerStyle)}
+          className="DatePickerDialog-dialogBodyContent"
         >
           <EventListener
             target="window"

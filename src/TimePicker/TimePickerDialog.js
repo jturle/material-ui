@@ -128,6 +128,7 @@ class TimePickerDialog extends Component {
         repositionOnUpdate={false}
         open={open}
         onRequestClose={this.handleRequestClose}
+        className="TimePickerDialog-dialogBodyContent"
       >
         {open &&
           <EventListener target="window" onKeyUp={this.handleKeyUp} />
